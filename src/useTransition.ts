@@ -56,7 +56,7 @@ type Config = {
   duration: number;
 };
 
-export const useWebAnimationsTransition = (
+export const useTransition = (
   show: boolean,
   config: Config,
 ): React.CSSProperties => {
