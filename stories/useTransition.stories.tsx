@@ -34,19 +34,16 @@ storiesOf('Transition', module).add(
       const style = useTransition(show, {
         ref: nodeRef,
         from: {
-          background: 'black',
           transform: 'scale(1)',
-          easing: 'ease-in-out',
+          // easing: 'ease-in-out',
         },
         enter: {
-          background: 'black',
           transform: 'scale(1.25)',
-          easing: 'ease-in-out',
+          // easing: 'ease-in-out',
         },
         leave: {
-          background: 'black',
           transform: 'scale(1)',
-          easing: 'ease-in-out',
+          // easing: 'ease-in-out',
         },
         duration: 500,
       });
